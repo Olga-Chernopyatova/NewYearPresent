@@ -6,8 +6,8 @@ public class Candy extends mix {
 	
 	public Candy() {}
 	
-	public Candy(String brand, int i, int j, String flavour) {
-		super(brand, i, j);
+	public Candy(String brand, double weight, double price, String flavour) {
+		super(brand, weight, price);
 	    this.flavour = flavour;
 	}
 	
